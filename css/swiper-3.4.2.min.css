@@ -39,7 +39,7 @@
 					<div class="zytop">
 						<img src="images/p_10.png" />
 						<h2>助您安全、自由支付</h2>
-						<p>kk币 - 世界通用数字资产，恒定人民币汇率 1:1，100%互兑 无需远行即可畅玩全球</p>
+						<p>GD币 - 世界通用数字资产，恒定人民币汇率 1:1，100%互兑 无需远行即可畅玩全球</p>
 					</div>
 					<div class="rwm">
 						<p>请使用手机扫码下方二维码开始下载APP</p>
@@ -81,14 +81,14 @@
 		<div class="qszf">
 			<div class="zfbt_tit wow fadeInUp" data-wow-delay="0.3s">
 				<h2>轻松支付</h2>
-				<p>使用kkpay，您可以轻松购买kk币，并存入您的kkpay账户。您可以随时使用kk币支付给受支持的商家。<br />我们在全世界已有1000+合作商家，现在就使用kkpay畅享缤纷服务吧</p>
+				<p>使用GDpay，您可以轻松购买GD币，并存入您的GDpay账户。您可以随时使用GD币支付给受支持的商家。<br />我们在全世界已有1000+合作商家，现在就使用GDpay畅享缤纷服务吧</p>
 			</div>
 			<div class="zfnr">
 				<ul>
 					<li class=" wow fadeInUp" data-wow-delay="0.3s">
 						<div class="zfbox1">
 							<img src="images/p_40.png" />
-							<p>STEP1：<br />电子支付购买kk币</p>
+							<p>STEP1：<br />电子支付购买GD币</p>
 						</div>
 					</li>
 					<li class=" wow fadeInUp" data-wow-delay="0.4s">
@@ -100,7 +100,7 @@
 					<li class=" wow fadeInUp" data-wow-delay="0.5s">
 						<div class="zfbox1">
 							<img src="images/p_42.png" />
-							<p>STEP2：<br />购买kk币存入kkpay账户</p>
+							<p>STEP2：<br />购买GD币存入GDpay账户</p>
 						</div>
 					</li>
 					<li class=" wow fadeInUp" data-wow-delay="0.6s">
@@ -112,7 +112,7 @@
 					<li class=" wow fadeInUp" data-wow-delay="0.7s">
 						<div class="zfbox1">
 							<img src="images/p_44.png" />
-							<p>STEP3：<br />随时使用kk币轻松支付给商家</p>
+							<p>STEP3：<br />随时使用GD币轻松支付给商家</p>
 						</div>
 					</li>
 				</ul>
@@ -121,7 +121,7 @@
 		<div class="qszf">
 			<div class="zfbt_tit wow fadeInUp" data-wow-delay="0.3s">
 				<h2>随时兑现</h2>
-				<p>您从商家提取kk币至您的kkpay账户后，无论何时，您都可以打开您的kkpay，将kk币出售，并获得人民币。<br />我们提供极速、安全的交易渠道。不仅保障您能快速获取人民币，且非常重视您的银行账户安全，严控每一笔资金来源
+				<p>您从商家提取GD币至您的GDpay账户后，无论何时，您都可以打开您的GDpay，将GD币出售，并获得人民币。<br />我们提供极速、安全的交易渠道。不仅保障您能快速获取人民币，且非常重视您的银行账户安全，严控每一笔资金来源
 				</p>
 			</div>
 			<div class="zfnr">
@@ -129,7 +129,7 @@
 					<li class="wow fadeInUp" data-wow-delay="0.3s">
 						<div class="zfbox1">
 							<img src="images/p_54.png" />
-							<p>STEP4：<br />从商家提取kk币至kkpay账户</p>
+							<p>STEP4：<br />从商家提取GD币至GDpay账户</p>
 						</div>
 					</li>
 					<li class="wow fadeInUp" data-wow-delay="0.4s">
@@ -141,7 +141,7 @@
 					<li class="wow fadeInUp" data-wow-delay="0.5s">
 						<div class="zfbox1">
 							<img src="images/p_57.png" />
-							<p>STEP5：<br />从kkpay账户卖出kk币</p>
+							<p>STEP5：<br />从GDpay账户卖出GD币</p>
 						</div>
 					</li>
 					<li class="wow fadeInUp" data-wow-delay="0.6s">
