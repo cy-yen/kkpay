@@ -24,7 +24,7 @@
 			<h1 class="logo"><a href=""><img src="images/p_03.png" /></a></h1>
 			<div class="nav">
 				<ul>
-					<li class="shouye"><a href="index.html">首页</a></li>
+					<li class="shouye"><a href="index2.html">首页</a></li>
 					<li class="nav2"><a href="javascript:void(0);">产品介绍</a></li>
 					<li><a href="jc_p.html">教程</a></li>
 					<li><a href="xzr_p.html">须知</a></li>
