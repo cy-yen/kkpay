@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>KKPAY</title>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" href="./images/favicon.ico">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/font.js"></script>
+	<script src="./js/axios.js"></script>
+	<link rel="stylesheet" href='css/swiper.css'>
+	<script src="./js/swiper.min.js"></script>
+</head>
+
+<body style="background: #f8f8f9;">
+	<div class="top">
+		<h1 class="logo"><a href=""><img src="images/a_03.png" /></a></h1>
+		<div class="flgn">
+			<ul>
+				<li><a href="index_s.html">产品介绍</a></li>
+				<li><a href="jc_s.html">教程</a></li>
+				<li><a href="xzr_s.html">须知</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="jcbj">
+		<div class="xznr_box">
+			<h2>入门须知</h2>
+			<div class="zxnr_xq">
+				<div class="head_title">名词解释</div>
+				<div class="text_div">
+					<div class="text_title">会员余额</div>:
+					<div class="text_content">KKpay钱包KKP币总余额，包括可售余额、不可售金额、卖单余额、交易中金额。</div>
+				</div>
+				<div class="text_div">
+					<div class="text_title">可售余额</div>:
+					<div class="text_content">KKpay钱包可挂单出售交易的KKP币剩余金额。</div>
+				</div>
+				<div class="text_div">
+					<div class="text_title">不可售</div>:
+					<div class="text_content">KKpay钱包不可挂单出售交易的KKP币金额，会员在交易大厅买入KKP币为不可售金额，需安会员
+						将不可售金额的KKP币从商户存款后再提现回到KKpay钱包的金额才为可售金额。</div>
+				</div>
+				<div class="text_div">
+					<div class="text_title">卖单余额</div>:
+					<div class="text_content">卖家挂单中尚未达成交易的KKP币金额。</div>
+				</div>
+				<div class="text_div">
+					<div class="text_title">交易中</div>:
+					<div class="text_content">卖家进行中的订单中交易的KKP币金额。</div>
+				</div>
+				<div class="little_title">挂单详情页</div>
+				<div class="text_div">
+					<div class="text_title">已出售数量</div>:
+					<div class="text_content">该挂单已完成售卖的KKP币数量。</div>
+				</div>
+				<div class="text_div">
+					<div class="text_title">已取消数量</div>:
+					<div class="text_content">该挂单已取消未售卖的KKP币数。</div>
+				</div>
+				<div class="little_title">钱包记录详情页</div>
+				<div class="text_div">
+					<div class="text_title">市场卖单</div>:
+					<div class="text_content">挂单后出售成功的账单类型。</div>
+				</div>
+				<div class="text_div">
+					<div class="text_title">市场买单</div>:
+					<div class="text_content">在交易大厅购买的账单类型。</div>
+				</div>
+				<div class="text_div">
+					<div class="text_title">充值到商户</div>:
+					<div class="text_content">从KKpay钱包的KKP币余额充值到商户的账单类型。</div>
+				</div>
+				<div class="text_div">
+					<div class="text_title">商户下发入</div>:
+					<div class="text_content">从商户提现到KKpay钱包的KKP币余额中的账单类型。</div>
+				</div>
+				<div class="text_div">
+					<div class="text_title">转账入</div>:
+					<div class="text_content">收到商户转账的账单类型。</div>
+				</div>
+				<div class="head_title" style="margin-top:30px;">注意事项</div>
+				<div class="text_div">
+					<div class="number">1</div>
+					<div class="still_box"></div>
+					<div class="text_content">为保证会员之间的交易安全，平台采取的是实名制用户认证，会员严格启用本人身份信息、银行账号信息等
+						买家付款时必须使用本人身份信息的银行卡或者其他支付工具来购买，如果使用他人银行账户代为付款，卖
+						家有权可以不予确认收款。由于本人录入信息不符而造成的一切损失，由会员自行承担，平台不承担任何责任。</div>
+				</div>
+				<div class="text_div">
+					<div class="number">2</div>
+					<div class="still_box"></div>
+					<div class="text_content">会员在购买或者出售的时候，一定要实时关注订单变化，如有异议及时联系平台客服，申请人工介入，由于
+						买卖双方长时间不确认交易，系统将自动判定为成交或者取消，由于系统无法做到百分百准确，平台不承担任
+						何责任。</div>
+				</div>
+				<div class="text_div">
+					<div class="number">3</div>
+					<div class="still_box"></div>
+					<div class="text_content">会员在购买KKP币的时候，卖家确认交易后，买家需在20分钟之内支付成功且上传截图并点击「我已转账」确认，否则系统会在20分钟后自动取消订单，否则系统将判定您的付款无效，取消订单。</div>
+				</div>
+				<div class="text_div">
+					<div class="number">4</div>
+					<div class="still_box"></div>
+					<div class="text_content">如有「买家」下单购买并点击了「我已转账」请卖家马上查询是否收到汇款，如果没有收到「买家」的转账
+						请点击「暂停打币」功能，并联系在线客服。</div>
+				</div>
+				<div class="text_div" style="margin-top: 30px;">
+					<div class="number">5</div>
+					<div class="still_box"></div>
+					<div class="text_content">收到的款项如与买家购买的信息上的付款信息不一致，卖家有权不打币。</div>
+				</div>
+				<div class="text_div" style="margin-top: 30px;">
+					<div class="number">6</div>
+					<div class="still_box"></div>
+					<div class="text_content">买家恶意上传虚假付款信息，查证属实将永久封号。</div>
+				</div>
+				<div class="text_div" style="margin-top: 30px;">
+					<div class="number">7</div>
+					<div class="still_box"></div>
+					<div class="text_content">如有收到款项，恶意点击暂停打币，查证属实将永久封号。</div>
+				</div>
+				<div class="text_div" style="margin-top: 30px;">
+					<div class="number">8</div>
+					<div class="still_box"></div>
+					<div class="text_content">用户连续5次违反平台交易规则，如︰用户取消交易、卖家10分钟内不确认交易、卖家20分钟内未打币、买家20分钟内不转账;会被列为风险账号，24小时禁止交易。</div>
+				</div>
+				<div class="text_div">
+					<div class="number">9</div>
+					<div class="still_box"></div>
+					<div class="text_content">如果交易中双方发生纠纷,请点击右上角交易纠纷申请客服接入处理。</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="swiper_mask"></div>
+	<div class="swiper_box">
+		<div class="swiper_container_one">
+			<div class="swiper-wrapper">
+				<div class="swiper_slide_one">
+					<img src="./images/st1.png" class="swiper_img" />
+				</div>
+				<div class="swiper_slide_one">
+					<img src="./images/st2.png" class="swiper_img" />
+				</div>
+				<div class="swiper_slide_one">
+					<img src="./images/st3.png" class="swiper_img" />
+				</div>
+				<div class="swiper_slide_one">
+					<img src="./images/st4.png" class="swiper_img" />
+				</div>
+			</div>
+			<div class="swiper_pagination"></div>
+		</div>
+		<div class="swiper_btn">我已知晓，去下载</div>
+	</div>
+	<div class="footer">
+		<div class="download_btn_box">
+			<div class="ios_btn"><img src="./images/ios.png" alt="">iOS下载</div>
+			<div class="android_btn" @click.stop="createSuperLabel(downloadObj.downUrl,'_self')"><img
+					src="./images/android.png" alt="">Android下载</div>
+		</div>
+	</div>
+	<span class="fhbtn"><img src="images/b_08.png" /></span>
+	<script type="text/javascript">
+		$(".pcjc_tit li").click(function () {
+			var num = $(this).index();
+			$(this).addClass("cur").siblings().removeClass("cur");
+			$('.pcjc_nr .pcjcbox').eq(num).show().siblings().hide();
+		})
+
+	</script>
+	<script>
+		$(function () {
+			$(".fhbtn").click(function () {
+				$("html,body").animate({ scrollTop: '0px' }, 1000);
+			});
+		});
+		window.onscroll = function(){
+			let scrollTopPx = $("html,body").scrollTop()
+			if(scrollTopPx > 100){
+				$('.fhbtn').fadeIn();
+			}else{
+				$('.fhbtn').fadeOut();
+			}
+		}
+	</script>
+	<script type="text/javascript">
+		$('.dhbtn').click(function () {
+			if ($(this).hasClass('on')) {
+				$(this).removeClass('on');
+				$('.nav').slideUp();
+			} else {
+				$(this).addClass('on');
+
+				$('.nav').slideDown();
+			}
+		})
+	</script>
+	<script type="text/javascript">
+		let downloadObj;
+		axios({
+			method: 'get',
+			url: '/app/version/checkUpdateH5',
+		}).then((res) => {
+			if (res.data.code == 200) {
+				let obj = res.data.data
+				downloadObj = obj
+			} else {
+				alert(res.data.msg)
+			}
+		});
+		function createSuperLabel(url, target) {
+			let a = document.createElement('a')
+			a.setAttribute('href', url)
+			a.setAttribute('target', target ? target : '_blank')
+			a.setAttribute('id', 'new_downLoad')
+			// 防止反复添加
+			if (!document.getElementById('new_downLoad')) {
+				document.body.appendChild(a)
+			}
+			a.click()
+		}
+		$('.ios_btn').click(function () {
+			$('.swiper_mask').fadeIn();
+			$('.swiper_box').fadeIn();
+		})
+		$('.android_btn').click(function () {
+			createSuperLabel(downloadObj.downUrl, '_self')
+		})
+		$('.swiper_mask').click(function () {
+			$('.swiper_mask').fadeOut();
+			$('.swiper_box').fadeOut();
+		})
+		$('.swiper_btn').click(function () {
+			$('.swiper_mask').fadeOut();
+			$('.swiper_box').fadeOut();
+			if (downloadObj.superLottery.indexOf('http') > -1 || downloadObj.superLottery.indexOf('https') > -1) {
+				createSuperLabel(downloadObj.superLottery)
+			} else {
+				createSuperLabel('//' + downloadObj.superLottery)
+			}
+		})
+	</script>
+	<script type="text/javascript">
+		$(window).resize(function () {
+			var screenWidth = $(window).width();
+			if (screenWidth > 1000) {
+				window.location.href = "xzr_p.html"
+			} else {
+
+			}
+		})
+		$(function () {
+			var screenWidth = $(window).width();
+			if (screenWidth > 1000) {
+				window.location.href = "xzr_p.html"
+			} else {
+				let mySwiperOne = new Swiper(".swiper_container_one", {
+					initialSlide: 0,
+					direction: "horizontal",
+					loop: false,
+					observer: true, //修改swiper自己或子元素时，自动初始化swiper
+					observeParents: true, //修改swiper的父元素时，自动初始化swiper
+					slideClass: "swiper_slide_one",
+					pagination: {
+						el: ".swiper_pagination",
+						clickable: true,
+					}, //如果需要分页器
+				});
+			}
+		})
+	</script>
+</body>
+
+</html>

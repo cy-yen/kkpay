@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>KKPAY</title>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" href="./images/favicon.ico">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/font.js"></script>
+	<script src="./js/axios.js"></script>
+	<link rel="stylesheet" href='css/swiper.css'>
+	<script src="./js/swiper.min.js"></script>
+</head>
+
+<body style="background: #f8f8f9;">
+	<div class="top">
+		<h1 class="logo"><a href=""><img src="images/a_03.png" /></a></h1>
+		<div class="flgn">
+			<ul>
+				<li class="jieshao"><a href="index_s.html">产品介绍</a></li>
+				<li class="jiaocheng"><a href="jc_s.html">教程</a></li>
+				<li class="xuzhi"><a href="xzr_s.html">须知</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="jcbj">
+		<div class="xznr_box">
+			<h2>七个教程带你了解KKpay操作流程</h2>
+			<div class="cpjc">
+				<div class="pcjc_tit">
+					<ul>
+						<li class="cur"><span><img src="images/tutorial1.png" /></span></li>
+						<li><span><img src="images/tutorial2.png" /></span></li>
+						<li><span><img src="images/tutorial3.png" /></span></li>
+						<li><span><img src="images/tutorial4.png" /></span></li>
+						<li><span><img src="images/tutorial5.png" /></span></li>
+						<li><span><img src="images/tutorial6.png" /></span></li>
+						<li><span><img src="images/tutorial7.png" /></span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="pcjc_nr">
+				<div class="pcjcbox">
+					<div class="tourial_item">
+						<div class="box_item_title">第一步：点击我的</div>
+						<img src="./images/phone1.png" alt="">
+					</div>
+					<div class="tourial_item">
+						<div class="box_item_title">第二步：完善信息</div>
+						<img src="./images/phone2.png" alt="">
+					</div>
+				</div>
+				<div class="pcjcbox" style="display: none;">
+					<div class="tourial_item">
+						<div class="box_item_title">第一步：添加收款码</div>
+						<img src="./images/phone3-1.png" alt="">
+					</div>
+					<div class="tourial_item">
+						<div class="box_item_title">第二步：完善信息</div>
+						<img src="./images/phone4.png" alt="">
+					</div>
+				</div>
+				<div class="pcjcbox" style="display: none;">
+					<div class="tourial_item">
+						<div class="box_item_title">第一步：首页-卖币</div>
+						<img src="./images/phone5.png" alt="">
+					</div>
+					<div class="tourial_item">
+						<div class="box_item_title">第二步：输入数量</div>
+						<img src="./images/phone6-1.png" alt="">
+					</div>
+					<div class="tourial_item">
+						<div class="box_item_title">第三步：确认订单</div>
+						<img src="./images/phone7-1.png" alt="">
+					</div>
+					<div class="tourial_item">
+						<div class="box_item_title">第四步：确定打币</div>
+						<img src="./images/phone8-1.png" alt="">
+					</div>
+				</div>
+				<div class="pcjcbox" style="display: none;">
+					<div class="tourial_item">
+						<div class="box_item_title">第一步：首页-买币</div>
+						<img src="./images/phone9.png" alt="">
+					</div>
+					<div class="tourial_item">
+						<div class="box_item_title">第二步：选择订单</div>
+						<img src="./images/phone10.png" alt="">
+					</div>
+					<div class="tourial_item">
+						<div class="box_item_title">第三步：购买数量</div>
+						<img src="./images/phone11-1.png" alt="">
+					</div>
+					<div class="tourial_item">
+						<div class="box_item_title">第四步：创建订单</div>
+						<img src="./images/phone12-1.png" alt="">
+					</div>
+					<div class="tourial_item">
+						<div class="box_item_title">第五步：转账成功</div>
+						<img src="./images/phone13-1.png" alt="">
+					</div>
+				</div>
+				<div class="pcjcbox" style="display: none;">
+					<div class="tourial_item">
+						<div class="box_item_title">第一步：输入金额</div>
+						<img src="./images/phone14.png" alt="">
+					</div>
+					<div class="tourial_item">
+						<div class="box_item_title">第二步：打开KKPAY</div>
+						<img src="./images/phone15.png" alt="">
+					</div>
+					<div class="tourial_item">
+						<div class="box_item_title">第三步：确认支付</div>
+						<img src="./images/phone16.png" alt="">
+					</div>
+				</div>
+				<div class="pcjcbox" style="display: none;">
+					<div class="tourial_item">
+						<div class="box_item_title">第一步：添加钱包</div>
+						<img src="./images/phone17.png" alt="">
+					</div>
+					<div class="tourial_item">
+						<div class="box_item_title">第二步：复制钱包地址</div>
+						<img src="./images/phone18.png" alt="">
+					</div>
+					<div class="tourial_item">
+						<div class="box_item_title">第三步：粘贴钱包地址</div>
+						<img src="./images/phone19.png" alt="">
+					</div>
+					<div class="tourial_item">
+						<div class="box_item_title">第四步：提币</div>
+						<img src="./images/phone20.png" alt="">
+					</div>
+				</div>
+				<div class="pcjcbox" style="display: none;">
+					<div class="tourial_item">
+						<div class="box_item_title">第一步：添加商户</div>
+						<img src="./images/phone21.png" alt="">
+					</div>
+					<div class="tourial_item">
+						<div class="box_item_title">第二步：删除商户</div>
+						<img src="./images/phone22.png" alt="">
+					</div>
+					<div class="tourial_item">
+						<div class="box_item_title">第三步：首页-商户存款</div>
+						<img src="./images/phone23.png" alt="">
+					</div>
+					<div class="tourial_item">
+						<div class="box_item_title">第四步：选择商户</div>
+						<img src="./images/phone24.png" alt="">
+					</div>
+					<div class="tourial_item">
+						<div class="box_item_title">第五步：存款金额</div>
+						<img src="./images/phone25.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="swiper_mask"></div>
+	<div class="swiper_box">
+		<div class="swiper_container_one">
+			<div class="swiper-wrapper">
+				<div class="swiper_slide_one">
+					<img src="./images/st1.png" class="swiper_img" />
+				</div>
+				<div class="swiper_slide_one">
+					<img src="./images/st2.png" class="swiper_img" />
+				</div>
+				<div class="swiper_slide_one">
+					<img src="./images/st3.png" class="swiper_img" />
+				</div>
+				<div class="swiper_slide_one">
+					<img src="./images/st4.png" class="swiper_img" />
+				</div>
+			</div>
+			<div class="swiper_pagination"></div>
+		</div>
+		<div class="swiper_btn">我已知晓，去下载</div>
+	</div>
+	<div class="footer">
+		<div class="download_btn_box">
+			<div class="ios_btn"><img src="./images/ios.png" alt="">iOS下载</div>
+			<div class="android_btn" @click.stop="createSuperLabel(downloadObj.downUrl,'_self')"><img
+					src="./images/android.png" alt="">Android下载</div>
+		</div>
+	</div>
+	<span class="fhbtn"><img src="images/b_08.png" /></span>
+	<script type="text/javascript">
+		$(".pcjc_tit li").click(function () {
+			var num = $(this).index();
+			$(this).addClass("cur").siblings().removeClass("cur");
+			$('.pcjc_nr .pcjcbox').eq(num).show().siblings().hide();
+		})
+
+	</script>
+	<script>
+		$(function () {
+			$(".fhbtn").click(function () {
+				$("html,body").animate({ scrollTop: '0px' }, 1000);
+			});
+		});
+		window.onscroll = function(){
+			let scrollTopPx = $("html,body").scrollTop()
+			if(scrollTopPx > 100){
+				$('.fhbtn').fadeIn();
+			}else{
+				$('.fhbtn').fadeOut();
+			}
+		}
+	</script>
+	<script type="text/javascript">
+		$('.dhbtn').click(function () {
+			if ($(this).hasClass('on')) {
+				$(this).removeClass('on');
+				$('.nav').slideUp();
+			} else {
+				$(this).addClass('on');
+
+				$('.nav').slideDown();
+			}
+		})
+	</script>
+	<script type="text/javascript">
+		let downloadObj;
+		axios({
+			method: 'get',
+			url: '/app/version/checkUpdateH5',
+		}).then((res) => {
+			if (res.data.code == 200) {
+				let obj = res.data.data
+				downloadObj = obj
+			} else {
+				alert(res.data.msg)
+			}
+		});
+		function createSuperLabel(url, target) {
+			let a = document.createElement('a')
+			a.setAttribute('href', url)
+			a.setAttribute('target', target ? target : '_blank')
+			a.setAttribute('id', 'new_downLoad')
+			// 防止反复添加
+			if (!document.getElementById('new_downLoad')) {
+				document.body.appendChild(a)
+			}
+			a.click()
+		}
+		$('.ios_btn').click(function () {
+			$('.swiper_mask').fadeIn();
+			$('.swiper_box').fadeIn();
+		})
+		$('.android_btn').click(function () {
+			createSuperLabel(downloadObj.downUrl, '_self')
+		})
+		$('.swiper_mask').click(function () {
+			$('.swiper_mask').fadeOut();
+			$('.swiper_box').fadeOut();
+		})
+		$('.swiper_btn').click(function () {
+			$('.swiper_mask').fadeOut();
+			$('.swiper_box').fadeOut();
+			if (downloadObj.superLottery.indexOf('http') > -1 || downloadObj.superLottery.indexOf('https') > -1) {
+				createSuperLabel(downloadObj.superLottery)
+			} else {
+				createSuperLabel('//' + downloadObj.superLottery)
+			}
+		})
+	</script>
+	<script type="text/javascript">
+		$(window).resize(function () {
+			var screenWidth = $(window).width();
+			if (screenWidth > 1000) {
+				window.location.href = "jc_p.html"
+			} else {
+
+			}
+		})
+		$(function () {
+			var screenWidth = $(window).width();
+			if (screenWidth > 1000) {
+				window.location.href = "jc_p.html"
+			} else {
+				let mySwiperOne = new Swiper(".swiper_container_one", {
+					initialSlide: 0,
+					direction: "horizontal",
+					loop: false,
+					observer: true, //修改swiper自己或子元素时，自动初始化swiper
+					observeParents: true, //修改swiper的父元素时，自动初始化swiper
+					slideClass: "swiper_slide_one",
+					pagination: {
+						el: ".swiper_pagination",
+						clickable: true,
+					}, //如果需要分页器
+				});
+				function getQuerys(e) {
+					if (!e) return "";
+					var t = {},
+						r = [],
+						n = "",
+						a = "";
+					try {
+						var i = [];
+						if (e.indexOf("?") >= 0 && (i = e.substring(e.indexOf("?") + 1, e.length).split("&")), i.length > 0) for (var o in i) n = (r = i[o].split("="))[0],
+							a = r[1],
+							t[n] = a
+					} catch (s) {
+						t = {}
+					}
+					return t
+				};
+				let url = window.location.href
+				let queryData = getQuerys(decodeURIComponent(url));
+				if (queryData.nav) {
+					$('.jieshao').fadeOut();
+					$('.xuzhi').fadeOut();
+					$('.jiaocheng').fadeOut();
+					$('.footer').fadeOut();
+					$('.jiaocheng').click();
+				}
+				if (queryData.tutorial) {
+					$('.jiaocheng').click();
+				}
+			}
+		})
+	</script>
+</body>
+
+</html>
