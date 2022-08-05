@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>KKPAY</title>
+	<title>GDPAY</title>
 	<link rel="stylesheet" href="css/swiper-3.4.2.min.css" type="text/css">
 	<link rel="stylesheet" href="css/animate.min.css" type="text/css">
 	<link rel="stylesheet" href="css/styey1.css" type="text/css">
@@ -64,7 +64,7 @@
 					<ul>
 						<li class=" wow fadeInLeft" data-wow-delay="0.4s">
 							<div class="wdbox"><img src="images/p_34.jpg" /><span class="dk1"></span>
-								<p>KKPAY操作教程</p>
+								<p>GDPAY操作教程</p>
 							</div>
 						</li>
 						<li class=" wow fadeInRight" data-wow-delay="0.3s">
